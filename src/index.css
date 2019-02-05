@@ -1,0 +1,16 @@
+.table, td, tr{
+  padding:10px;
+  border:1px solid black;
+  border-collapse: collapse;
+}
+
+.navbar{
+  background-color: pink;
+  font-size: 50px;
+}
+
+.footer{
+  background-color: black;
+  color:white;
+  font-size: 30px;
+}
