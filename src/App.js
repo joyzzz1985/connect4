@@ -10,29 +10,6 @@ import Maincontent from "./components/MainContent";
 // class App extends Component {
 function App() {
 
-    // constructor(props) {
-    //     super(props);
-    //     this.grid = [7][7];
-    //     this.cached = {}
-        
-    //     this.board = [
-    //         [0,0,0,0,0,0,0],
-    //         [0,0,0,0,0,0,0],
-    //         [0,0,0,0,0,0,0],
-    //         [0,0,0,0,0,0,0],
-    //         [0,0,0,0,0,0,0],
-    //         [0,0,0,0,0,0,0],
-    //         [0,0,0,0,0,0,0]
-    //     ];
-        
-    //     this.state = {
-    //         empty: true,
-    //         turn: "Red",
-        
-    //       }
-    // }
-
-    // render() {
         return (
             
             // <div className="container">
@@ -43,7 +20,5 @@ function App() {
             </div>
         );
     }
-
-
 
 export default App;
