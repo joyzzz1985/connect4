@@ -1,51 +1,50 @@
-/* html,
+html,
 body {
    margin:0;
    padding:0;
    height:100%;
 }
-.container {
-   min-height:100%;
-   position:relative;
-}
-.header {
-   background:#ff0;
-   padding:10px;
-}
-.body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-/* }
-.footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   /* background:black;
-   color:white;
-}  */
-
 
 .table, td, tr{
-  border:1px solid black;
+  border:5px solid rgb(79, 79, 172);
   border-collapse: collapse;
+  background-color: rgb(79, 79, 172);
 }
 
+td{
+   text-align: center;
+}
 
+.table{
+   box-shadow:0px 0px 22px 0px rgba(0,0,0,0.75);
+}
 
+.thiscontainer{
+   background-image: url("/images/alphabet-blocks-blur-591652.jpg");
+   background-repeat:no-repeat;
+   background-size:100% 100%;
+   min-height:100vh;
+   position:relative;
+}
+
+.container{
+   background-color: transparent;
+   
+   position:relative;
+}
 .navbar{
   height:50px;
   font-size: 50px;
-} */
+} 
 
-.footer{
-  background-color: black;
-  color:white;
-  font-size: 30px;
-  
+.red{
+   color: red;
 }
 
+.yellow{
+   color:yellow;
+}
 
-
-
-
+.rowform{
+   padding-top: 20px;
+}
